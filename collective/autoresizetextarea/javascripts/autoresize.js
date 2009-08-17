@@ -1,5 +1,5 @@
 jq(document).ready(function() {
-	jq('textarea#form-widgets-text').autoResize({
+	jq('textarea.autoresize').autoResize({
 	    // On resize:
 	    onResize : function() {
 	        jq(this).css({opacity:0.8});
