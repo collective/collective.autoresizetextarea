@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.autoresizetextarea">
+
+    <gs:registerProfile
+        name="default"
+        title="Textarea autoResize"
+        description="Plone integration for jQuery autoResize plugin."
+        directory="profiles/default"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <!-- resource directory for javascript -->
+    <browser:resourceDirectory
+        name="collective.autoresizetextarea.javascripts"
+        directory="javascripts"
+        />
+
+</configure>

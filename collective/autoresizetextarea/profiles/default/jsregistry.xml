@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<object name="portal_javascripts">
+
+ <javascript
+    id="++resource++collective.autoresizetextarea.javascripts/autoresize.jquery.min.js"
+    cacheable="False" compression="safe" cookable="False"
+    enabled="True" expression=""  inline="False"/>
+
+ <javascript
+    id="++resource++collective.autoresizetextarea.javascripts/autoresize.js"
+    cacheable="False" compression="safe" cookable="False"
+    enabled="True" expression=""  inline="False"/>
+
+</object>
