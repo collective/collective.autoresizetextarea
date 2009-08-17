@@ -8,13 +8,13 @@
     <gs:registerProfile
         name="default"
         title="Textarea autoResize"
-        description="Plone integration for jQuery autoResize plugin."
+        description="jQuery textarea auto-resizer."
         directory="profiles/default"
         for="Products.CMFPlone.interfaces.IPloneSiteRoot"
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
-    <!-- resource directory for javascript -->
+    <!-- Resource directory for javascripts -->
     <browser:resourceDirectory
         name="collective.autoresizetextarea.javascripts"
         directory="javascripts"
