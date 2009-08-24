@@ -43,3 +43,7 @@ or change the jQuery selector in the second line of the javascripts/autoresize.j
     jq('textarea.mycssclass').autoResize({
        ...
     ...
+
+Consult the `jQuery documentation`_ for more about jQuery selectors.
+
+.. _`jQuery documentation`: http://docs.jquery.com/Selectors
