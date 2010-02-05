@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0a1'
+version = '1.0b1'
 
 setup(name='collective.autoresizetextarea',
       version=version,
@@ -17,7 +17,7 @@ setup(name='collective.autoresizetextarea',
       keywords='jQuery textarea auto-resize',
       author='Timo Stollenwerk',
       author_email='timo@zmag.de',
-      url='http://svn.plone.org/svn/collective/collective.autoresizetextarea',
+      url='http://pypi.python.org/pypi/collective.autoresizetextarea',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective'],
@@ -28,13 +28,8 @@ setup(name='collective.autoresizetextarea',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
-      # -*- Entry points: -*-
-
-      [distutils.setup_keywords]
-      paster_plugins = setuptools.dist:assert_string_list
-
-      [egg_info.writers]
-      paster_plugins.txt = setuptools.command.egg_info:write_arg
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
       paster_plugins = ["ZopeSkel"],
       )
