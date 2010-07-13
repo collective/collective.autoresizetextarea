@@ -5,6 +5,9 @@ Changelog
 1.0b2 unreleased
 ----------------
 
+* Metadata added to GS
+  [timo]
+
 * HISTORY.txt moved to CHANGES.txt
   [timo]
 
