@@ -1,0 +1,23 @@
+Changelog
+=========
+
+
+1.0b2 unreleased
+----------------
+
+* HISTORY.txt moved to CHANGES.txt
+  [timo]
+
+
+1.0b1 2010-02-05
+----------------
+
+* z3c.autoinclude added. 
+  [timo]
+
+
+1.0a1 2009-09-24
+----------------
+
+* Initial release. 
+  [timo]

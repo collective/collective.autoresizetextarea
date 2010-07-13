@@ -7,7 +7,7 @@ setup(name='collective.autoresizetextarea',
       version=version,
       description="jQuery textarea auto-resizer for Plone.",
       long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open("CHANGES.txt").read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Framework :: Plone",
